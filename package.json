@@ -1,0 +1,18 @@
+{
+  "name": "dw-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint:html": "htmlhint --config tests/.htmlhintrc '**/*.html'",
+    "lint:css": "stylelint --config tests/.stylelintrc.json '**/*.css'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^16.9.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}
