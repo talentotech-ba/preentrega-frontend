@@ -17,5 +17,12 @@
   "inline-style-disabled": true,
   "inline-script-disabled": false,
   "attr-unsafe-chars": true,
-  "semantics": true
+  "semantics": true,
+  "tags-check":{
+    "a":{
+      "selfclosing": true,
+      "attrsRequired": ["href", "alt"],
+      "redundantAttrs": ["title"]
+    }
+  }
 }
