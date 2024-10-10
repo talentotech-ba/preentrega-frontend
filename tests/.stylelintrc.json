@@ -1,9 +1,47 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
-    "no-duplicate-selectors": true,
-    "declaration-no-important": true,
-    "selector-max-id": 2,
-    "max-nesting-depth": 3
+    "selector-class-pattern": [
+      true,
+      {
+        "message": "Los nombres de clase deben comenzar con minúscula y contener solo letras, números o guiones."
+      }
+    ],
+    "no-duplicate-selectors": [
+      true,
+      {
+        "message": "Se han encontrado selectores duplicados. Evita repetir selectores."
+      }
+    ],
+    "declaration-no-important": [
+      true,
+      {
+        "message": "Evita usar el atributo '!important'. Puede dificultar el mantenimiento del CSS."
+      }
+    ],
+    "selector-max-id": [
+      true,
+      {
+        "message": "El número máximo de identificadores (id) por selector es 2."
+      }
+    ],
+    "max-nesting-depth": [
+      true,
+      {
+        "message": "La profundidad máxima de anidamiento de selectores es de 3 niveles."
+      }
+    ],
+    "block-no-empty": [
+      true,
+      {
+        "message": "Los bloques de código CSS no pueden estar vacíos."
+      }
+    ],
+    "color-no-hex": [
+      true,
+      {
+        "message": "No uses colores hexadecimales como \"%s\". Utiliza nombres de colores o funciones como rgb() o hsl()."
+      }
+    ]
   }
 }
