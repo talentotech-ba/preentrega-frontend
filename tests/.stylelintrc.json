@@ -38,7 +38,7 @@
       }
     ],
     "color-no-hex": [
-      true,
+      false,
       {
         "message": "No uses colores hexadecimales como \"%s\". Utiliza nombres de colores o funciones como rgb() o hsl()."
       }
