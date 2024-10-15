@@ -37,11 +37,6 @@
         "message": "Los bloques de código CSS no pueden estar vacíos."
       }
     ],
-    "color-no-hex": [
-      false,
-      {
-        "message": "No uses colores hexadecimales como \"%s\". Utiliza nombres de colores o funciones como rgb() o hsl()."
-      }
-    ]
+    "color-no-hex":null
   }
 }
